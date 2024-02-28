@@ -3,12 +3,13 @@ using namespace std;
 int main() {
     int n,sum=0;
     cin>>n;
-    for(int i=1; i<=n;i++){
+    for(int i=1; i<=n-1; i++){
         if(n%i==0){
             sum=sum+i;
         }
     }
-    if(sum=n){
+
+    if(sum==n){
         cout<<'P';
     }
     else{
