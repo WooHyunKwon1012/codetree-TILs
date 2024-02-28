@@ -15,7 +15,7 @@ int main() {
     if (B>=5){
         A=A+1;
     }
-    cout<<sum<<" "<<sum/cnt<<"."<<sum%cnt*10/cnt;
+    cout<<sum<<" "<<sum/cnt<<"."<<A;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
