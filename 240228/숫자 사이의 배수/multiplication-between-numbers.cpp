@@ -11,7 +11,7 @@ int main() {
     }
     
     int A=sum%cnt*10/cnt;
-    int B=A%cnt*10/cnt;
+    int B=sum%cnt*10%cnt%cnt*10/cnt;
     if (B>=5){
         A=A+1;
     }
