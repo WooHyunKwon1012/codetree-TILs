@@ -17,6 +17,7 @@ int main() {
         A=A+1;
         if (A==10){
             C=C+1;
+            A=0;
         }
     }
     cout<<sum<<" "<<C<<"."<<A;
