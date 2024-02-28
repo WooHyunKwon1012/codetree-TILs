@@ -10,7 +10,11 @@ int main() {
         }
     }
     
-    
+    int A=sum%cnt*10/cnt;
+    int B=A%cnt*10/cnt;
+    if (B>=5){
+        A=A+1;
+    }
     cout<<sum<<" "<<sum/cnt<<"."<<sum%cnt*10/cnt;
     // 여기에 코드를 작성해주세요.
     return 0;
