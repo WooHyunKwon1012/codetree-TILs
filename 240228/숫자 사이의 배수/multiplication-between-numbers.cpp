@@ -12,10 +12,14 @@ int main() {
     
     int A=sum%cnt*10/cnt;
     int B=sum%cnt*10%cnt%cnt*10/cnt;
+    int C=sum/cnt;
     if (B>=5){
         A=A+1;
+        if (A==10){
+            C=C+1;
+        }
     }
-    cout<<sum<<" "<<sum/cnt<<"."<<A;
+    cout<<sum<<" "<<C<<"."<<A;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
