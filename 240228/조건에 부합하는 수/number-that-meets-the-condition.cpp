@@ -7,7 +7,7 @@ int main() {
         if(i%2==0 && i%4!=0){
             continue;
         }
-        else if(i/8 == 2 || i/8 ==4 || i/8 ==6 || i/8 ==8 || i/0 ==0){
+        else if(i/8 == 2 || i/8 ==4 || i/8 ==6 || i/8 ==8){
             continue;
         }
         else if(i%7 <4){
