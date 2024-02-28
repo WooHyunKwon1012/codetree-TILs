@@ -11,8 +11,12 @@ int main() {
             cout<< 0<<" ";
         }
         else if(i>=10){
-            cout << (A%3==0 || B%3==0) ? 0:i;
-            cout<< " ";
+            if(i%10!=0){
+                cout << ((A%3==0 || B%3==0) ? 0:i)<<" ";
+            }
+            else{
+                cout<< i<<" ";
+            }
         }
         else{
             cout << i<<" ";
