@@ -6,12 +6,15 @@ int main() {
     
     cin>>n;
     for (int i=1; ;i++){
-        A=A*i;
+        
+        A=n/i;
+        
         cnt++;
-        if(n/A<=1){
+        if(A<=1){
             cout<<cnt;
             break;
         }
+        n=A;
     }
     // 여기에 코드를 작성해주세요.
     return 0;
