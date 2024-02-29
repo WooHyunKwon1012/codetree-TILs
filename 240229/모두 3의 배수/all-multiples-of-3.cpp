@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int a,b,c,d,e;
-    bool satis=true;
+    bool satis=false;
     cin>>a>>b>>c>>d>>e;
     if(a%3==0){
         if(b%3==0){
