@@ -15,7 +15,7 @@ int main() {
     }
     
     for(int i=n-1; i>=1; i--){
-        for(int j=i-n+3; j>=1;j--){
+        for(int j=i-1; j>=1;j--){
             cout<<"  ";
         }   
         for(int k=1; k<=2*(n-i)+1;k++){
