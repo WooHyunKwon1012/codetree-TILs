@@ -8,7 +8,7 @@ int main() {
             if(j%2==1){
                 cout<<i;
             }
-            if(j%2==0){
+            else{
                 cout<<n-i+1;
             }
             
