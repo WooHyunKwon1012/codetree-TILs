@@ -9,12 +9,13 @@ int main() {
             
             cout<<cnt;
             cnt++;
+            if(cnt=='Z'+1){
+            cnt='A';
+        }
             
         }
         cout<<endl;
-        if(cnt=='Z'){
-            cnt='A';
-        }
+        
     }
     // 여기에 코드를 작성해주세요.
     return 0;
