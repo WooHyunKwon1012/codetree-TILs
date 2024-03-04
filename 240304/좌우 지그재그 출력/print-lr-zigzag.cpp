@@ -13,8 +13,8 @@ int main() {
             }
         }
         else{
-            for(int j=1; j<=n; j++){
-                cout<<3*n-cnt+1<<" ";
+            for(int j=1; j<=n; j++){ //4,3,2,1  cnt 5,6,7,8
+                cout<<n*(i)-j+1<<" ";
                 cnt++;
             }
         }    
