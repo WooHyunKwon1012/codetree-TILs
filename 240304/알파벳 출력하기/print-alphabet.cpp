@@ -6,11 +6,12 @@ int main() {
     char cnt='A';
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
-            cout<<cnt;
-            cnt++;
             if(cnt=='Z'){
                 cnt='A';
             }
+            cout<<cnt;
+            cnt++;
+            
         }
         cout<<endl;
     }
