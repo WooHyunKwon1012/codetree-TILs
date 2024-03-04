@@ -27,7 +27,7 @@ int main() {
             for(int j=1; j<=i/2;j++){
                 cout<<"    ";
             }
-            for(int j=1; j<=(n-i+1)/2; j++){
+            for(int j=1; j<=(n-i)/2; j++){
             cout<<"*   ";
             }
             cout<<endl;
