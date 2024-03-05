@@ -9,9 +9,18 @@ int main() {
             break;
         }
     }
-    for(int i=n-1; i>=0; i--){
+    if(arr[n]!=0){
+        for(int i=n; i>=0; i--){
         cout<<arr[i]<<" ";
+        }
     }
+    else{
+        for(int i=n-1; i>=0; i--){
+        cout<<arr[i]<<" ";
+        }
+    }
+    
+    
     // 여기에 코드를 작성해주세요.
     return 0;
 }
