@@ -4,11 +4,13 @@ int main() {
     int arr[10],n;
     for(int i=0; i<10; i++){
         cin>>arr[i];
+        n=i;
         if(arr[i]==0){
-            n=i;
+            
             break;
         }
     }
+    
     if(arr[n]!=0){
         for(int i=n; i>=0; i--){
         cout<<arr[i]<<" ";
