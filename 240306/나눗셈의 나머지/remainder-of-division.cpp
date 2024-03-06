@@ -6,18 +6,19 @@ int main() {
     for(int i; i<100; i++){
         c=a/b;
         d=a%b;
-        cnt[d]++;
         a=c;
         if(a==0){
             break;
         }
+        cnt[d]++;
+        
+        
     }
-    // for(int i=0;i<b;i++){
-    //     cout<<cnt[i]<<" ";
-    // }
+    
     for(int i=0;i<b;i++){
         sum=sum+cnt[i]*cnt[i];
     }
+    
     cout<<sum;
 
     // 여기에 코드를 작성해주세요.
