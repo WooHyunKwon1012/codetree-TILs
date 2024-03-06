@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n,arr[9]={},cnt[10]={};
+    int n,arr[100]={},cnt[100]={};
     cin>>n;
     for(int i=0; i<n; i++){
         cin>>arr[i];
     }
-    for(int i=0; i<9; i++){
+    for(int i=0; i<n; i++){
         cnt[arr[i]]=cnt[arr[i]]+1;
     }
     for(int i=1; i<=9; i++){
