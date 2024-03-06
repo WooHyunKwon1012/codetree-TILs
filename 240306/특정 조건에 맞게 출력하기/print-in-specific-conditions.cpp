@@ -15,6 +15,9 @@ int main() {
                 cout<<arr[i]<<" ";
             }
         }
+        else{
+            break;
+        }
 
     }
     // 여기에 코드를 작성해주세요.
