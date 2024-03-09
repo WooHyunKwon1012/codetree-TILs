@@ -14,14 +14,12 @@ int main() {
         max2=arr[0];
     }
 
-    for(int i=2; i<n; i++){
-        if(arr[i]>max){
-            
+    for(int i=1; i<n; i++){
+        if(arr[i]>=max){
+            max2=max;
             max=arr[i];
         }
-        else if(arr[i]>max2){
-            max2=arr[i];
-        }
+        
         
         
     }
