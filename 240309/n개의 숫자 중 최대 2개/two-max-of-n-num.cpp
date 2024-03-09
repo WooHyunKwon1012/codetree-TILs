@@ -22,6 +22,9 @@ int main() {
                 max2=max;
                 max=arr[i];
             }
+            if(arr[i]<max && arr[i]>=max2){
+                max2=arr[i];
+            }
             
             
             
