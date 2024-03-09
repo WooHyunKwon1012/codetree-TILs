@@ -13,19 +13,22 @@ int main() {
         max=arr[1];
         max2=arr[0];
     }
-
-    for(int i=1; i<n; i++){
-        if(arr[i]>=max){
-            max2=max;
-            max=arr[i];
-        }
-        
-        
-        
+    if(n==2){
+        cout<<max<<" "<<max2;
     }
+    else{
+        for(int i=1; i<n; i++){
+            if(arr[i]>=max){
+                max2=max;
+                max=arr[i];
+            }
+            
+            
+            
+        }
 
-    cout<< max<<" "<<max2;
-   
+        cout<< max<<" "<<max2;
+    }
     
     
     // 여기에 코드를 작성해주세요.
