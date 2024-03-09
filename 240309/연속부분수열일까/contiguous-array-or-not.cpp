@@ -27,11 +27,11 @@ int main() {
         }
     }
     
-    if(cnt==0){
-        cout<<"No";
+    if(cnt>0 && n1>=n2){
+        cout<<"Yes";
     }
     else{
-        cout<<"Yes";
+        cout<<"No";
     }
     // 여기에 코드를 작성해주세요.
     return 0;
