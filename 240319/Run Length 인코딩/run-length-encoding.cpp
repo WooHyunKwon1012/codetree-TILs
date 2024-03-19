@@ -7,12 +7,18 @@ int main() {
     string str;
     cin>>str;
     int n=str.length();
-    int cnt=1,cnt1=1,cnt2=0,cnt3=0;
+    int cnt=1,cnt1=1,cnt2=0,cnt3=0,cnt4=0,cnt5=0;
     for(int i=0; i<n; i++){
         if(str[i+1]==str[i]){
             cnt1++;
         }
         else{
+            if(cnt1>=1000){
+                cnt5++;
+            }
+            if(cnt1>=100){
+                cnt4++;
+            }
             if(cnt1>=10){
                 cnt3++;
             }
@@ -21,7 +27,7 @@ int main() {
         }
     }
     
-    cout<<2*cnt2+cnt3<<endl;
+    cout<<2*cnt2+cnt3+cnt4+cnt5<<endl;
     for(int i=0; i<n; i++){
         if(str[i+1]==str[i]){
             cnt++;
