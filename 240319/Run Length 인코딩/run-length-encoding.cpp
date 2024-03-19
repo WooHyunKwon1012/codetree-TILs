@@ -17,8 +17,10 @@ int main() {
                 cnt3++;
             }
             cnt2++;
+            cnt1=1;
         }
     }
+    
     cout<<2*cnt2+cnt3<<endl;
     for(int i=0; i<n; i++){
         if(str[i+1]==str[i]){
